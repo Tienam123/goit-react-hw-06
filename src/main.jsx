@@ -4,7 +4,7 @@ import App from '@/App.jsx';
 //import {GlobalStyle} from '@/GlobalStyle.js';
 import './styles/index.css'
 import {Provider} from "react-redux";
-import {persistor, store} from "@/store/index.js";
+import {persistor, store} from "@/redux/store.js";
 import {PersistGate} from "redux-persist/integration/react";
 
 ReactDOM.createRoot(document.getElementById('wrapper'))

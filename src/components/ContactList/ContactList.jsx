@@ -1,6 +1,6 @@
 import Contact from "@/components/Contact/Contact.jsx";
 import {useSelector} from "react-redux";
-import {filteredContacts} from "@/store/actions.js";
+import {filteredContacts} from "@/redux/actions.js";
 
 
 const ContactList = () => {
